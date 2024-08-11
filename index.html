@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+</head>
+<style>
+    .cal-body{
+        height: 300px;
+        width: 250px;
+        background-color:#a6a3a8;
+        margin: 20px auto;
+        border-radius: 10px;
+        padding: 20px;
+        padding-top: 40px;
+    }
+    .cal-screen{
+              background-color: #a1af77;
+              text-align: right;
+              display: block;
+              margin: 0 auto;
+              font-size: 30px;
+              padding: 5px 10px;
+              width: 220px;
+              font-size: 25px;
+              margin-bottom: 20px;
+              box-shadow: 3px 3px 2px 0;
+    }
+    .buttons-container{
+             display: flex;
+             flex-direction: column;
+             justify-content: space-between;
+             height: 220px;
+             flex-wrap: wrap;
+    }
+    .btn{
+           width: 50px;
+           border-radius: 50%;
+           text-align: center;
+           padding: 2px 0;
+           font-size: 20px;   
+           margin: 5px;  
+           box-shadow: 3px 3px 2px 0; 
+   
+    }
+   
+
+</style>
+<body>
+    <h1>calculator</h1>
+    <div class="cal-body">
+        <input type="text" value="0" class="cal-screen">
+        <div class="buttons-container">
+            <button class="btn" style="background-color:#fa7420 ;">AC</button>
+            <button class="btn">7</button>
+            <button class="btn">4</button>
+            <button class="btn">1</button>
+            <button class="btn">0</button>
+
+            <button class="btn" style="background-color:#fa7420 ;"> m-</button>
+            <button class="btn">8</button>
+            <button class="btn">5</button>
+            <button class="btn">2</button>
+            <button class="btn">.</button>
+
+            <button class="btn" style="background-color:#fa7420 ;">m+</button>
+            <button class="btn">9</button>
+            <button class="btn">6</button>
+            <button class="btn">3</button>
+            <button class="btn">%</button>
+
+            <button class="btn" style="background-color:#fa7420 ;">/</button>
+            <button class="btn" style="background-color:#fa7420 ;" >*</button>
+            <button class="btn" style="background-color:#fa7420 ;">-</button>
+            <button class="btn" style="background-color:#fa7420 ;">+</button>
+            <button class="btn" style="background-color:#fa7420 ;">=</button>
+ 
+        </div>
+    </div>
+   
+    
+</body>
+</html>
